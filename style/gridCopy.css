@@ -1,0 +1,93 @@
+body{
+    text-align: center;
+}
+
+.grid-cont{
+    display: grid;
+    grid-template-areas:
+    "h h h h h"
+    "i i i p aside"
+    "i i i p aside"
+    "o o o o aside"
+    "o o o o aside"
+    "j k l l aside"
+    "j k l l aside"
+    "j k l l aside"
+    "footer footer footer footer footer";
+    height: 100vh; /* This ensures the grid takes up the full viewport height */
+
+
+}
+
+.grid-cont > *{
+    margin: 10px;
+    padding: 40px;
+    color: white;
+}
+
+header{
+    grid-area: h;
+    background-color: green;
+    color: yellow;
+}
+
+.item1{
+    grid-area: i;
+    background-color: blue;
+
+
+}
+
+.item3{
+    grid-area: p;
+    background-color: black;
+    display: flex;
+    justify-content: left;
+
+}
+
+aside{
+    grid-area: aside;
+    background-color: blue;
+
+}
+.item2{
+    grid-area: o;
+    background-color: purple;
+    display: flex;
+    justify-content: left;
+
+    
+}
+
+.item4{
+    grid-area: j;
+    background-color: black;
+    display: flex;
+    justify-content: left;
+
+}
+
+.item5{
+    grid-area: k;
+    background-color: black;
+    display: flex;
+    justify-content: left;
+
+}
+
+.item6{
+    grid-area: l;
+    grid-column: 3/5;
+    background-color: black;
+    display: flex;
+    justify-content: left;
+
+}
+
+footer{
+    grid-area: footer;
+    background-color: green;
+    color: yellow;
+
+}
