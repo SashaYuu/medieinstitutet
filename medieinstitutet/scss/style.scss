@@ -9,12 +9,18 @@ $font-weights:(
 
 );
 
+$hide: true; 
+$Ohide:true;
 
+@mixin hide {
+    display: none;
+  }
 
 $mycolors:(
     "stark":blue,
     "light":pink,
     "Xstark":black
+    
 
 );
 
@@ -23,7 +29,19 @@ $mycolors:(
     font-size: 2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 5rem;
-    color: purple;
+    color: white;
+}
+
+@mixin hide{
+    $hide: true;
+    display: none;
+}
+
+@mixin Ohide{
+    $Ohide:true;
+    &:hover{
+        display: none
+    }
 }
 
 
@@ -36,6 +54,11 @@ $mycolors:(
 };
 
 .main{
+    
+  @if $Ohide {
+    @include Ohide; 
+  }
+
     background-color: $Scolor;
     color:mycolor(light);
     background-color: mycolors(stark);
@@ -44,10 +67,10 @@ $mycolors:(
     }
 }
 
-.p1{
-color: mycolors(light);
-@include fontstyle()
+
+
+
+.p1 {
+
 }
-
-
 
