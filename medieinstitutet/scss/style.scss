@@ -1,0 +1,53 @@
+$text-color:green; 
+$size: 2rem;
+$Pcolor:rgb(96, 96, 246);
+$Scolor:lightblue;
+$font-weights:(
+    "regular":400,
+    "medium":500,
+    "bold":700
+
+);
+
+
+
+$mycolors:(
+    "stark":blue,
+    "light":pink,
+    "Xstark":black
+
+);
+
+
+@mixin fontstyle{
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 5rem;
+    color: purple;
+}
+
+
+@function weight($weight){
+    @return map-get($font-weights,$weight);
+}
+
+@function mycolors($colors){
+    @return map-get($mycolors,$colors);
+};
+
+.main{
+    background-color: $Scolor;
+    color:mycolor(light);
+    background-color: mycolors(stark);
+    .section{
+        font-weight:weight(bold)
+    }
+}
+
+.p1{
+color: mycolors(light);
+@include fontstyle()
+}
+
+
+

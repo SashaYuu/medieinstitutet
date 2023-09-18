@@ -1,0 +1,16 @@
+.main {
+  background-color: lightblue;
+  color: mycolor(light);
+  background-color: blue;
+}
+.main .section {
+  font-weight: 700;
+}
+
+.p1 {
+  color: pink;
+  font-size: 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 5rem;
+  color: purple;
+}/*# sourceMappingURL=style.css.map */

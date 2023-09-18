@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+}
+
+.number {
+    border-collapse: collapse;
+    margin: 25px auto;
+    border: none; 
+    width: 100px;
+    height: 100px;    
+}
+
+.number thead {
+    text-align: center;
+    font-weight: bold;
+    border: none;
+}
+
+.number tr {
+    text-align: center;
+}
+
+.number td {
+    border: none;
+}
+
+h4 {
+    text-align: center; 
+    font-weight: lighter;
+}
+
+.bold{
+    font-weight: bold;
+}
