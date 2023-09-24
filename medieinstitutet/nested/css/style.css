@@ -1,0 +1,11 @@
+.body .h2 {
+  color: blue;
+}
+
+.p23 {
+  color: red;
+}
+
+p::first-letter {
+  font-size: 40px;
+}/*# sourceMappingURL=style.css.map */
