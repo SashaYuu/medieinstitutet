@@ -1,0 +1,174 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    
+}
+
+header{
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.1em;
+    padding: 5px;
+    color: blue;
+    padding-left: 30px;
+}
+
+header a:hover{
+    color: purple;
+}
+
+section{
+    padding: 152px 63px;
+    
+}
+
+
+.bx{
+    font-size: 30px;
+padding: 5px;
+}
+
+.main{
+    width: 100%;
+    
+    min-height: 100vh;
+    align-items: center;
+    background: url(../img/code.jpg) no-repeat;
+    background-size: cover;
+    background-position: flip;
+    background-attachment: fixed;
+    
+
+}
+
+
+.main h2{
+    color: white;
+    font-size: 1.4em;
+
+}
+
+.main h2 span{
+    color: rgb(60, 60, 193);
+    font-size: 1.2em;
+    display: inline-block;
+    margin-top: 5px;
+
+}
+
+.main h3{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 900;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.mainbtn{
+    color: white;
+    background-color: rgb(63, 63, 192);
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.7375em;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    border-radius: 20px ;
+    transition: 0.7s ease;
+}
+
+.mainbtn:hover{
+    background-color: rgb(69, 69, 109);
+    transform: scale(1.1, 1.1);
+}
+
+.social-icons {
+position:absolute;
+bottom: 4rem;
+width: 170px;
+display: flex;
+justify-content: space-between;
+}
+
+.social-icons a{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: .2rem solid blue;
+    border-radius: 50%;
+    font-size: 20px;
+    color: blue;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+.social-icons ::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    animation: showlight 1s ease forwards;
+    animation-delay: 2.5s;
+    z-index: 2;
+}
+
+.social-icons a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: aqua;
+    z-index: -1;
+    transition: .5s;
+}
+
+
+.social-icons a:hover::before{
+    width: 100%;
+
+
+}
+
+.social-iconsa:hover{
+    color: blue;
+}
+
+
+@keyframes showlight{
+    100%{
+        width: 0;
+    }
+}

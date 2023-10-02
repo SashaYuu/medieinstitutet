@@ -1,21 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@1&display=swap');
-
-
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-
 .item {
-  font-size: 30px;
-}
-
-ol{
   font-size: 30px;
 }
 
@@ -24,83 +10,9 @@ ol{
 }
 
 .item2 {
-  font-family: 'Indie Flower', cursive;
+  font-family: "DotGothic16", sans-serif;
 }
 
 .item3 {
   font-family: "Lato", sans-serif;
 }/*# sourceMappingURL=style.css.map */
-
-.item4 {
-  font-family: 'Merriweather', serif;
-}
-
-.item5 {
-font-family: 'Alegreya', serif;
-}
-
-
-
-.item5 {
-  font-family: 'Pacifico', cursive; }
-
-
-
-
- .container {
-  display: grid;
-/*   border:1px solid red; */
-  height: 100%;
-  align-items: start;
-  justify-content: start;
-  background-color: #c1c1cb;
-  width: 200px;
-}
-
-svg {
-    display: block;
-    font: 200px 'Montserrat';
-    width: 200px;
-    margin: 0 auto;
-}
-
-.text-copy {
-    fill: none;
-    stroke: white;
-    stroke-dasharray: 6% 29%;
-    stroke-width: 5px;
-    stroke-dashoffset: 0%;
-    animation: stroke-offset 5.5s infinite linear;
-}
-
-.text-copy:nth-child(1){
-	stroke: #4D163D;
-	animation-delay: -1;
-}
-
-.text-copy:nth-child(2){
-	stroke: #840037;
-	animation-delay: -2s;
-}
-
-.text-copy:nth-child(3){
-	stroke: #BD0034;
-	animation-delay: -3s;
-}
-
-.text-copy:nth-child(4){
-	stroke: #BD0034;
-	animation-delay: -4s;
-}
-
-.text-copy:nth-child(5){
-	stroke: #FDB731;
-	animation-delay: -5s;
-}
-
-@keyframes stroke-offset{
-	100% {stroke-dashoffset: -35%;}
-}
-
-
-
