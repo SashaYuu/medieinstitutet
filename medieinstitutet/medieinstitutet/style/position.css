@@ -1,0 +1,94 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 1rem;
+    min-height: 200vh;
+}
+.outer-container {
+    border: 3px dashed black;
+    width: 75vw;
+    height: 85vh;
+    margin: 40px auto;
+    position: relative; /* to the ansester */
+}
+.inner-container {
+    border: 3px solid blue;
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;
+    /*position: relative;*/ /* to the ancestor */
+
+}
+.box {
+    width: 150px;
+    height: 150px;
+    color: #fff; /* Fonts invisible */
+    padding: 1rem;
+}
+.absolute {
+    background-color: blue;
+    position: absolute; /* Default is static */
+    top: 0;
+    left: 0;
+    /* left: -10000px;  *//* invisibility ! */
+    z-index: 0;
+}
+.relative {
+    background-color: #f00;
+    position: relative;
+    top: 10px;
+    left: 50px;
+    z-index:1;
+}
+.fixed {
+    background-color: green;
+    position:fixed;
+    left: 0px;
+    top: 0px;
+}
+.sticky {
+    background-color: black;
+    position: sticky;
+    top: 0;
+}
+html {scroll-behavior: smooth;}
+section {
+    height: 100vh;
+}
+.blue {background-color: #00f;}
+.red {background-color: #F00;}
+.green {background-color: #0f0;}
+
+header, footer {
+    color: #fff;
+    text-align: center;
+    height: 100px;
+}
+header {
+    position: sticky;
+    top: 0;
+    font-size: 5rem;
+}
+footer {
+    background-color: #000;
+    position: fixed;
+    font-size: 3rem;
+    bottom: 0;
+    width: 100%;
+}
+a:visited {
+    color:#fff;
+}
+.social {
+    background-color: royalblue;
+    color: #fff;
+    font-size: inherit;
+    padding: 1rem;
+    position:fixed;
+    top: 30%;
+    left: 0;
+    z-index:1;
+}

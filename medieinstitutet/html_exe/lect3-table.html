@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <article>
+        <h1>Table</h1>
+        <table border="1">
+            <caption>HTML/CSS Schedule</caption>
+          <thead>
+            <tr>
+              <th></th>
+              <th scope="col">Time</th>
+              <th scope="col">Activity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <!-- Table row -->
+              <th scope="row">Morning</th>
+              <td>
+                <!-- Table data -->
+                <time datetime="08:30">8 am</time>-<time datetime="11:30"
+                  >11:30</time>
+              </td>
+              <td>Write Code</td>
+            </tr>
+            <tr>
+              <!-- Table row -->
+              <th scope="row">Break</th>
+              <td>
+                <!-- Table data -->
+                <time datetime="11:30">11:30</time>-<time datetime="12:30">12:30</time>
+              </td>
+              <td>Lunch time</td>
+            </tr>
+            <tr>
+              <!-- Table row -->
+              <th scope="row">Afternoon</th>
+              <td>
+                <!-- Table data -->
+                <time datetime="12:30">12:30</time>-<time datetime="16:30">16:30</time>
+              </td>
+              <td>Write Code</td>
+            </tr>
+            <tr>
+                <th scope="row">Evening</th>
+            <td rowspan="2">All Other <br> times</td>
+            <td>Free time</td>
+            </tr>
+            <tr>
+                <th scope="row">Night</th>
+                <td>Sleep</td>
+            </tr>
+            
+          </tbody>
+          <tfoot>
+            <tr>
+                <td colspan="3">And that's what I do every day!</td>
+            </tr>
+          </tfoot>
+        </table>
+
+<h2>Exercise</h2>
+<ol>
+  <li>Write the HTML code for the following table:
+    
+    <pre>
+    Name      Result
+    Philippe      10
+    Marc           8
+    Anna           9
+    Eva           12
+  </pre>
+  <table>
+    <thead>
+        <th>Name</th>
+        <th>Result</th>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Philippe</td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td>Marc</td> <td>8</td>
+      </tr>
+      <tr>
+        <td>Anna</td> <td>9</td>
+      </tr>
+      <tr><td>Eva</td><td>12</td></tr>
+    </tbody>
+  
+  </table>
+
+    <li>Write the HTML code for the following table:</li>
+<pre>
+Day  Temp    Mean
+1/9    23
+2/9    27
+3/9    25
+4/9    30
+     Mean = 26.25
+</pre>
+
+  </li>
+</ol>
+
+<h3>Solutions</h3>
+
+<table>
+  <thead>
+      <th>Name</th>
+      <th>Result</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Philippe</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Marc</td> <td>8</td>
+    </tr>
+    <tr>
+      <td>Anna</td> <td>9</td>
+    </tr>
+    <tr><td>Eva</td><td>12</td></tr>
+  </tbody>
+
+</table>
+
+<br>
+<table>
+<thead><th>Day</th><th>Temp</th><th>Mean</th></thead>
+<tbody>
+  <tr><td>1/9</td><td>23</td><td>23</td></tr>
+  <tr><td>2/9</td><td>27</td><td>25</td></tr>
+  <tr><td>3/9</td><td>25</td><td></td></tr>
+  <tr><td>4/9</td><td>30</td><td>26.25</td></tr>
+
+</tbody>
+<tfoot>
+  <tr>
+    <td colspan="3">&nbsp;Index = 2.45</td>
+</tfoot>
+</table>
+      </article>
+
+    </main>
+  </body>
+</html>

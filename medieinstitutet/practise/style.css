@@ -1,0 +1,108 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    background-color: yellow;
+    height: 100vh;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,100px);
+    gap: 10px;
+    grid-template-areas: 
+    "h h h h"
+    "as m m m"
+    "as m m m"
+    "f f f f"
+    ;
+    
+}
+
+.item1 li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px; /* Add some margin to create space between items */
+    list-style-type: none;
+    color: white;
+    
+}
+
+.item1 ul{
+float: left;
+    
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+display: inline-block;}
+
+
+.container > *{
+    background-color: red;
+}
+
+.item1{
+    grid-area: h;
+    height: 100px;
+    width: 100px;
+    animation-name: nav_move;
+    animation-duration: 0.007s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+
+@keyframes nav_move{
+    0%{
+        background-color: red;
+        translate: 0 0;
+    }
+
+    25%{
+        background-color: green;
+        translate: 0 500px;
+    }
+
+    50%{
+        background-color: blue;
+        translate: 400px 500px;
+    }
+
+    75%{
+        background-color: yellow;
+        translate: 400px 0;
+    }
+
+    100%{
+        background-color: black;
+        translate: 0 0;
+    }
+
+
+}
+
+
+.item2{
+    grid-area: m;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+}
+.item3{
+    grid-area: as
+}
+.item4{
+    grid-area: f;
+}
