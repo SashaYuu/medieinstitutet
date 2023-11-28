@@ -1,0 +1,22 @@
+body {
+  counter-reset: article 0;
+  counter-reset: section 0;
+}
+
+article {
+  margin: 20px;
+  counter-reset: section 0;
+  counter-increment: article;
+}
+
+artcile h1::before {
+  content: counter(article) "";
+}
+
+article section {
+  margin: 30px;
+}
+article section article h2::before {
+  counter-increment: section;
+  counter: counter(artcile) "." counter(section) "";
+}/*# sourceMappingURL=style.css.map */

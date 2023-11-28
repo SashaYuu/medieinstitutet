@@ -1,0 +1,31 @@
+@use 'sass:math';
+
+
+@function pxToem($px){
+    @return math.div($px,16)+em;
+}
+
+$dark:("pink");
+
+@function body-theme($bgcolor){
+    @if $bgcolor ==  "light" {
+        @return black;
+    } @else {
+        @return blue;
+    }
+}
+
+body{
+    font-weight:700-200;
+    width: math.div(85.2,12.6);
+    font-size: pxToem(30);
+    color: body-theme(dark);
+ 
+    
+}
+
+
+
+
+
+

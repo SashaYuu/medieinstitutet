@@ -1,0 +1,27 @@
+
+@function multi($row, $col) {
+	@return $row*$col;
+}
+
+table {
+	width: 600px;
+	border: 1px solid;
+	table-layout: fixed;
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+td {
+	border: 1px solid;
+	height: 60px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+@for $row from 1 to 11 {
+	@for $col from 1 to 11 {
+		table tr:nth-child(#{$row}) td:nth-child(#{$col+1})::before {
+			content: '#{multi($row,$col)}';
+		}
+	}
+}
