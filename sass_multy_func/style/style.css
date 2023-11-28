@@ -1,0 +1,414 @@
+table {
+  width: 600px;
+  border: 1px solid;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td {
+  border: 1px solid;
+  height: 60px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+table tr:nth-child(1) td:nth-child(2)::before {
+  content: "1";
+}
+
+table tr:nth-child(1) td:nth-child(3)::before {
+  content: "2";
+}
+
+table tr:nth-child(1) td:nth-child(4)::before {
+  content: "3";
+}
+
+table tr:nth-child(1) td:nth-child(5)::before {
+  content: "4";
+}
+
+table tr:nth-child(1) td:nth-child(6)::before {
+  content: "5";
+}
+
+table tr:nth-child(1) td:nth-child(7)::before {
+  content: "6";
+}
+
+table tr:nth-child(1) td:nth-child(8)::before {
+  content: "7";
+}
+
+table tr:nth-child(1) td:nth-child(9)::before {
+  content: "8";
+}
+
+table tr:nth-child(1) td:nth-child(10)::before {
+  content: "9";
+}
+
+table tr:nth-child(1) td:nth-child(11)::before {
+  content: "10";
+}
+
+table tr:nth-child(2) td:nth-child(2)::before {
+  content: "2";
+}
+
+table tr:nth-child(2) td:nth-child(3)::before {
+  content: "4";
+}
+
+table tr:nth-child(2) td:nth-child(4)::before {
+  content: "6";
+}
+
+table tr:nth-child(2) td:nth-child(5)::before {
+  content: "8";
+}
+
+table tr:nth-child(2) td:nth-child(6)::before {
+  content: "10";
+}
+
+table tr:nth-child(2) td:nth-child(7)::before {
+  content: "12";
+}
+
+table tr:nth-child(2) td:nth-child(8)::before {
+  content: "14";
+}
+
+table tr:nth-child(2) td:nth-child(9)::before {
+  content: "16";
+}
+
+table tr:nth-child(2) td:nth-child(10)::before {
+  content: "18";
+}
+
+table tr:nth-child(2) td:nth-child(11)::before {
+  content: "20";
+}
+
+table tr:nth-child(3) td:nth-child(2)::before {
+  content: "3";
+}
+
+table tr:nth-child(3) td:nth-child(3)::before {
+  content: "6";
+}
+
+table tr:nth-child(3) td:nth-child(4)::before {
+  content: "9";
+}
+
+table tr:nth-child(3) td:nth-child(5)::before {
+  content: "12";
+}
+
+table tr:nth-child(3) td:nth-child(6)::before {
+  content: "15";
+}
+
+table tr:nth-child(3) td:nth-child(7)::before {
+  content: "18";
+}
+
+table tr:nth-child(3) td:nth-child(8)::before {
+  content: "21";
+}
+
+table tr:nth-child(3) td:nth-child(9)::before {
+  content: "24";
+}
+
+table tr:nth-child(3) td:nth-child(10)::before {
+  content: "27";
+}
+
+table tr:nth-child(3) td:nth-child(11)::before {
+  content: "30";
+}
+
+table tr:nth-child(4) td:nth-child(2)::before {
+  content: "4";
+}
+
+table tr:nth-child(4) td:nth-child(3)::before {
+  content: "8";
+}
+
+table tr:nth-child(4) td:nth-child(4)::before {
+  content: "12";
+}
+
+table tr:nth-child(4) td:nth-child(5)::before {
+  content: "16";
+}
+
+table tr:nth-child(4) td:nth-child(6)::before {
+  content: "20";
+}
+
+table tr:nth-child(4) td:nth-child(7)::before {
+  content: "24";
+}
+
+table tr:nth-child(4) td:nth-child(8)::before {
+  content: "28";
+}
+
+table tr:nth-child(4) td:nth-child(9)::before {
+  content: "32";
+}
+
+table tr:nth-child(4) td:nth-child(10)::before {
+  content: "36";
+}
+
+table tr:nth-child(4) td:nth-child(11)::before {
+  content: "40";
+}
+
+table tr:nth-child(5) td:nth-child(2)::before {
+  content: "5";
+}
+
+table tr:nth-child(5) td:nth-child(3)::before {
+  content: "10";
+}
+
+table tr:nth-child(5) td:nth-child(4)::before {
+  content: "15";
+}
+
+table tr:nth-child(5) td:nth-child(5)::before {
+  content: "20";
+}
+
+table tr:nth-child(5) td:nth-child(6)::before {
+  content: "25";
+}
+
+table tr:nth-child(5) td:nth-child(7)::before {
+  content: "30";
+}
+
+table tr:nth-child(5) td:nth-child(8)::before {
+  content: "35";
+}
+
+table tr:nth-child(5) td:nth-child(9)::before {
+  content: "40";
+}
+
+table tr:nth-child(5) td:nth-child(10)::before {
+  content: "45";
+}
+
+table tr:nth-child(5) td:nth-child(11)::before {
+  content: "50";
+}
+
+table tr:nth-child(6) td:nth-child(2)::before {
+  content: "6";
+}
+
+table tr:nth-child(6) td:nth-child(3)::before {
+  content: "12";
+}
+
+table tr:nth-child(6) td:nth-child(4)::before {
+  content: "18";
+}
+
+table tr:nth-child(6) td:nth-child(5)::before {
+  content: "24";
+}
+
+table tr:nth-child(6) td:nth-child(6)::before {
+  content: "30";
+}
+
+table tr:nth-child(6) td:nth-child(7)::before {
+  content: "36";
+}
+
+table tr:nth-child(6) td:nth-child(8)::before {
+  content: "42";
+}
+
+table tr:nth-child(6) td:nth-child(9)::before {
+  content: "48";
+}
+
+table tr:nth-child(6) td:nth-child(10)::before {
+  content: "54";
+}
+
+table tr:nth-child(6) td:nth-child(11)::before {
+  content: "60";
+}
+
+table tr:nth-child(7) td:nth-child(2)::before {
+  content: "7";
+}
+
+table tr:nth-child(7) td:nth-child(3)::before {
+  content: "14";
+}
+
+table tr:nth-child(7) td:nth-child(4)::before {
+  content: "21";
+}
+
+table tr:nth-child(7) td:nth-child(5)::before {
+  content: "28";
+}
+
+table tr:nth-child(7) td:nth-child(6)::before {
+  content: "35";
+}
+
+table tr:nth-child(7) td:nth-child(7)::before {
+  content: "42";
+}
+
+table tr:nth-child(7) td:nth-child(8)::before {
+  content: "49";
+}
+
+table tr:nth-child(7) td:nth-child(9)::before {
+  content: "56";
+}
+
+table tr:nth-child(7) td:nth-child(10)::before {
+  content: "63";
+}
+
+table tr:nth-child(7) td:nth-child(11)::before {
+  content: "70";
+}
+
+table tr:nth-child(8) td:nth-child(2)::before {
+  content: "8";
+}
+
+table tr:nth-child(8) td:nth-child(3)::before {
+  content: "16";
+}
+
+table tr:nth-child(8) td:nth-child(4)::before {
+  content: "24";
+}
+
+table tr:nth-child(8) td:nth-child(5)::before {
+  content: "32";
+}
+
+table tr:nth-child(8) td:nth-child(6)::before {
+  content: "40";
+}
+
+table tr:nth-child(8) td:nth-child(7)::before {
+  content: "48";
+}
+
+table tr:nth-child(8) td:nth-child(8)::before {
+  content: "56";
+}
+
+table tr:nth-child(8) td:nth-child(9)::before {
+  content: "64";
+}
+
+table tr:nth-child(8) td:nth-child(10)::before {
+  content: "72";
+}
+
+table tr:nth-child(8) td:nth-child(11)::before {
+  content: "80";
+}
+
+table tr:nth-child(9) td:nth-child(2)::before {
+  content: "9";
+}
+
+table tr:nth-child(9) td:nth-child(3)::before {
+  content: "18";
+}
+
+table tr:nth-child(9) td:nth-child(4)::before {
+  content: "27";
+}
+
+table tr:nth-child(9) td:nth-child(5)::before {
+  content: "36";
+}
+
+table tr:nth-child(9) td:nth-child(6)::before {
+  content: "45";
+}
+
+table tr:nth-child(9) td:nth-child(7)::before {
+  content: "54";
+}
+
+table tr:nth-child(9) td:nth-child(8)::before {
+  content: "63";
+}
+
+table tr:nth-child(9) td:nth-child(9)::before {
+  content: "72";
+}
+
+table tr:nth-child(9) td:nth-child(10)::before {
+  content: "81";
+}
+
+table tr:nth-child(9) td:nth-child(11)::before {
+  content: "90";
+}
+
+table tr:nth-child(10) td:nth-child(2)::before {
+  content: "10";
+}
+
+table tr:nth-child(10) td:nth-child(3)::before {
+  content: "20";
+}
+
+table tr:nth-child(10) td:nth-child(4)::before {
+  content: "30";
+}
+
+table tr:nth-child(10) td:nth-child(5)::before {
+  content: "40";
+}
+
+table tr:nth-child(10) td:nth-child(6)::before {
+  content: "50";
+}
+
+table tr:nth-child(10) td:nth-child(7)::before {
+  content: "60";
+}
+
+table tr:nth-child(10) td:nth-child(8)::before {
+  content: "70";
+}
+
+table tr:nth-child(10) td:nth-child(9)::before {
+  content: "80";
+}
+
+table tr:nth-child(10) td:nth-child(10)::before {
+  content: "90";
+}
+
+table tr:nth-child(10) td:nth-child(11)::before {
+  content: "100";
+}/*# sourceMappingURL=style.css.map */
