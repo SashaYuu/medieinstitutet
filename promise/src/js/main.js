@@ -1,4 +1,4 @@
-/* let order = new Promise ((resolve,reject)=>{
+let order = new Promise ((resolve,reject)=>{
     let done;
     done = true
 
@@ -13,7 +13,7 @@ order.then((msg) => {
     console.log("nice "+ msg)
 }).catch((msg) => {
     console.log("sorry "+ msg)
-}) */
+}) 
 
 ///////////////////////////////////////////////////
 /* let eatingg = true
