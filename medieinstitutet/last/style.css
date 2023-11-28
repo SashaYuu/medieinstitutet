@@ -1,0 +1,64 @@
+
+.parent{
+    padding: 5px;
+    margin: 5px;
+    height: 100 dvw  ;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(10 ,100px);
+    gap: 10px 10px;
+    grid-template-areas: 
+    "nav nav nav nav nav "
+    "sweden sweden sweden sweden sweden"
+    "sweden sweden sweden sweden sweden"
+    "sweden sweden sweden sweden sweden"
+    "mountain mountain mountain side side"
+    "pp pp pp side side"
+    "pp pp pp side side"
+    "pp pp pp side side"
+    "pp pp pp side side"
+    "footer footer footer footer footer"
+
+    
+    
+    
+    ;
+    
+
+
+    
+
+}
+.nav {
+    grid-area: nav;
+    background-color: #FF5733; /* Random color */
+    display: grid;
+    justify-content:center;
+    align-items: center;
+}
+
+.sweden {
+    grid-area: sweden;
+    background-color: #FFD700; /* Random color */
+}
+
+.mountain {
+    grid-area: mountain;
+    background-color: #008000; /* Random color */
+}
+
+.side {
+    grid-area: side;
+    background-color: #4B0082; /* Random color */
+}
+
+.pp {
+    grid-area: pp;
+    background-color: #800080; /* Random color */
+}
+
+.footer {
+    grid-area: footer;
+    background-color: #3498DB; /* Random color */
+}

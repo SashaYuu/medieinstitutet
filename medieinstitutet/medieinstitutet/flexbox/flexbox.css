@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    align-content: center;
+    max-width: 1000px;
+    min-height: 400px;
+    margin-inline: auto;
+    border: 1px solid #000;
+}
+
+.box {
+    min-width: 100px;
+    /* min-height: 100px; */
+    height: 100px;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-grow: 1;
+    flex-basis: 100px;
+    flex: 1 1 40%;
+    /* min-width like */
+}
+.box:nth-child(2) {
+    flex-grow: 2; /* Try with flex-shrink */
+    flex: 2 2 100px;
+    order: -1   /* at the begining */
+}
+
+
+img{
+    
+    max-width: 100px;
+    max-height: 100px;
+}

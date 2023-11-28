@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.5rem;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+}
+
+/* Block Elements stuck on top of each eithers 100% width*/
+/* main {
+    background-color: aqua;
+    width: 50%;
+}
+
+p {
+    background-color: lightgrey;
+    margin: 100px 50px;
+}
+*/
+p {
+    background-color: lightgrey;
+    
+
+}
+
+.opposite {
+    display: inline-block;
+    background-color: #333;
+    color: whitesmoke;
+    margin-top: 20px;
+    /* doesnot work on inline element*/
+    height: 60px;
+    padding: 1rem;
+    /* can overlapp if display not inline-block! */
+}
+
+/* usefull for link into button */
+ul {
+    /* display: none; don't do this!*/
+    list-style-type: none;
+    padding: 3rem;
+    text-align: right;
+    background-color: black;
+    margin:0;
+}
+li {
+    display: inline-block;
+    margin-inline: 0.5rem;
+}
+li a {
+    color: #fff;
+    text-decoration: none;
+}
+li a:hover, li:focus {
+    text-decoration: underline;
+}
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

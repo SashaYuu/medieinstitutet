@@ -71,22 +71,3 @@ function addToLocal(arrayOfTasks){
     window.localStorage.setItem("tasks", JSON.stringify( arrayOfTasks))
 }
 
-function getItem(arrayOfTasks) {
-    let data = window.localStorage.getItem("tasks")
-    let tasks = JSON.parse(data)
-    html(tasks)
-
-}   
-
-fetch("url")
-.then((Response) => Response.json())
-.then((products) => {
-    console.log("producter:", products);
-    createHtml(products)
-})
-
-function createHtml = (movies) => {
-    movies.forEach((movie) => {
-        console.log(movie)
-    });
-}

@@ -1,0 +1,84 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    padding: 10px;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    grid-auto-rows: 75px auto 75px;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd hd"
+    "mn mn mn mn mn mn mn sb sb"
+    "ft ft ft ft ft ft ft ft ft";
+    column-gap: 0.5rem;
+}
+
+.header{
+    grid-area: hd;
+    margin-bottom: 0.5rem;
+}
+
+.footer{
+    grid-area: ft;
+    margin-top: 0.5rem;
+}
+
+.el{
+    background-color: green;
+    color: #ff0;
+    display:grid;
+    padding:0.5rem;
+    place-content:center;
+}
+
+.sidebar{
+    grid-area: sb;
+    background-color: blue;
+}
+
+.container{
+    grid-area:mn;
+    margin:0rem;
+    padding:0rem;
+    display: grid;
+    min-height:400px;
+ /*    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-columns: 100px 200px 100px; */
+    grid-template-columns: repeat(2, 1fr 1fr);
+    grid-auto-rows: minmax(200px,auto);
+    row-gap: 1rem;
+    column-gap: 0.5rem;
+    /* Or the following shortcut */
+    gap: 0.5rem;
+}
+
+.box{
+    background-color: black;
+    color:white;
+    padding:0.5rem;
+}
+
+.box:first-child{
+    background-color: blue;
+    display:grid;
+    place-content: center;
+    /* grid-column-start: 1;
+    grid-column-end: 4; 
+    
+    Or the following shortcut:*/
+    grid-column: 1/4;
+}
+.box:nth-child(2){
+    background-color: purple;
+    grid-column: 1/5;
+    grid-row: 2/3;
+}
+.box:nth-child(6){
+    grid-column:3/5;
+}
