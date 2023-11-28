@@ -14,7 +14,7 @@ console.log(num.includes(3)) //asking wether 3 is in the array or not
 console.log(num.indexOf(20));//check the index postion of 20
 console.log(num.reverse());//revers the strings
 
-*/
+
 window.onload = function() {
     let start = "karrar"
     console.log(start) 
@@ -40,4 +40,15 @@ function del(){
 
 }
 
+*/
+let animals = ["dog", "cat", "snake", "cow"]; 
+for (let i = 0; i < animals.length; i++) {
+ 
+    const li= document.createElement("li") 
+    
+    li.innerhtml=animals[i] 
+    li.innerHTML= animals[i];
+    li.appendChild(li)
+};
 
+document.body.createElement(li)
