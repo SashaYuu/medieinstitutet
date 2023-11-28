@@ -71,6 +71,7 @@ function html(arrayOfTasks){
     window.localStorage.setItem("tasks", JSON.stringify( arrayOfTasks))
 }
 
+<<<<<<< HEAD
 function getItem(arrayOfTasks) {
     let data = window.localStorage.getItem("tasks")
     let tasks = JSON.parse(data)
@@ -90,3 +91,5 @@ function createHtml (movies) {
         console.log(movie)
     });
 } */
+=======
+>>>>>>> 33a1061605899c38a07537ec932d9cc6991846d3

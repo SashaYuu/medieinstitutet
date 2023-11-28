@@ -1,0 +1,38 @@
+.parent{
+    background-color: aquamarine;
+    height: 100dvw  ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,100px);
+    gap: 10px 10px;
+    grid-template-areas: 
+    "h h h "
+    "n m s"
+    "n m s"
+    "n m s"
+    "f f f"
+    ;
+    
+}
+
+.item1{
+    grid-area:h ;
+    background-color: pink;
+}
+
+.item2{
+    grid-area:n ;
+    background-color: lightcoral;
+}
+.item3{
+    grid-area:m ;
+    background-color: lightgreen;
+}
+.item4{
+    grid-area: s;
+    background-color: darkred;
+}
+.item5{
+    grid-area:f ;
+    background-color: darkgoldenrod;
+}

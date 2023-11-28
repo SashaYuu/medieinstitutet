@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0rem;
+    padding: 0 10px;
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas:     
+        "fi fi fi fi fi fi"
+        "main main main main main aside"
+        "LS mid mid mid mid aside";
+}
+
+.container > .mountin,
+.container > .box,
+.container > .aside,
+.container > .Lside,
+.container > .midside {
+    padding: 10px;
+}
+
+.box:nth-child(1){
+    grid-area: main;
+    background-color: blue;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+}
+
+.box:nth-child(2){
+    grid-area: fi;
+}
+
+.box:nth-child(3){
+    grid-area: aside;
+    background-color: lightblue;
+    color: white;
+}
+
+.box:nth-child(4){
+    grid-area: LS;
+    background-color: lightblue;
+}
+
+.box:nth-child(4) p {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: white;
+    font-size: 30px;
+}
+
+.box.box:nth-child(5){
+    grid-area: mid;
+    background-color: purple;
+    text-align: start;
+}
+
+.p1:first-letter {
+    font-size: 300%;
+    padding-right: 10px;
+    color: yellow;
+}
+
+.p1{
+    text-align: center;
+}
+
+figcaption {
+    color: white;
+    font-size: 17px;
+}
+
+.header.el ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    color: white;
+}
+
+li{
+    margin: 10px;
+}
+
+a.li{
+    color: white;
+    text-decoration: none;
+}
+
+.li:hover{
+    color: yellow;
+}
+
+.header.el{
+    background-color: rgb(149, 74, 149);
+}
+
+footer {
+    grid-area: footer;
+    background-color: darkorchid;
+    height: 40px;
+}
+
+.footer.el {
+    color: white;
+    text-align: end;
+    font-size: 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: right;
+}
