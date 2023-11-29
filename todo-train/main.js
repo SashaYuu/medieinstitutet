@@ -38,6 +38,8 @@ function addArray(arrayText){
 
 }
 
+
+
 function html(arrayOfTasks){
     console.log("sami")
 
