@@ -1,0 +1,64 @@
+{
+  "pizzas": [
+    {
+      "name": "Margherita",
+      "price": 12.99,
+      "picture_url": "https://thumbs.dreamstime.com/z/margarita-pizza-tomatoes-object-packaging-advertisements-menu-margarita-pizza-tomatoes-object-packaging-147369399.jpg?w=768",
+      "description": "Classic pizza with tomato sauce, fresh mozzarella, and basil."
+    },
+    {
+      "name": "Pepperoni",
+      "price": 14.99,
+      "picture_url": "https://img.freepik.com/free-photo/thinly-sliced-pepperoni-is-popular-pizza-topping-american-style-pizzerias-isolated-white-background-still-life_639032-229.jpg?w=740&t=st=1701632059~exp=1701632659~hmac=57c0ce0eeba08054330d01a0f3ac41704a9f544fd2463a1ae5515b6069810242",
+      "description": "A timeless favorite featuring pepperoni slices and melted cheese."
+    },
+    {
+      "name": "Vegetarian",
+      "price": 13.99,
+      "picture_url": "https://img.freepik.com/free-photo/top-view-delicious-pizza-concept_23-2148643433.jpg?size=626&ext=jpg&ga=GA1.1.1665244380.1701632057&semt=ais",
+      "description": "Loaded with a variety of fresh vegetables for a delightful veggie experience."
+    },
+    {
+      "name": "BBQ Chicken",
+      "price": 16.99,
+      "picture_url": "https://img.freepik.com/free-photo/top-view-mixed-pizza-with-tomato-black-olive-melted-cheese_140725-10787.jpg?w=740&t=st=1701632300~exp=1701632900~hmac=695c54a51facce808ef5c3a634e92305effea4d0a5de548284039bfd17f0b17d",
+      "description": "Tender chicken, red onions, and barbecue sauce for a tangy and savory flavor."
+    },
+    {
+      "name": "Hawaiian",
+      "price": 15.99,
+      "picture_url": "https://example.com/hawaiian.jpg",
+      "description": "A tropical delight with ham, pineapple, and a blend of cheeses."
+    },
+    {
+      "name": "Supreme",
+      "price": 17.99,
+      "picture_url": "https://example.com/supreme.jpg",
+      "description": "An all-in-one pizza experience with a variety of meats and vegetables."
+    },
+    {
+      "name": "Mushroom and Truffle",
+      "price": 18.99,
+      "picture_url": "https://example.com/mushroom_truffle.jpg",
+      "description": "A luxurious blend of mushrooms, truffle oil, and premium cheeses."
+    },
+    {
+      "name": "Buffalo Chicken",
+      "price": 16.99,
+      "picture_url": "https://example.com/buffalo_chicken.jpg",
+      "description": "Spicy buffalo chicken, blue cheese, and ranch dressing for a kick of flavor."
+    },
+    {
+      "name": "Four Cheese",
+      "price": 14.99,
+      "picture_url": "https://example.com/four_cheese.jpg",
+      "description": "A cheese lover's dream with a blend of mozzarella, cheddar, feta, and parmesan."
+    },
+    {
+      "name": "Pesto Delight",
+      "price": 17.99,
+      "picture_url": "https://example.com/pesto_delight.jpg",
+      "description": "Fresh pesto, cherry tomatoes, and pine nuts for a vibrant and flavorful pizza."
+    }
+  ]
+}
